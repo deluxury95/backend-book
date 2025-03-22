@@ -9,6 +9,7 @@ const port = process.env.PORT || 5000;
 // middlewear 
 app.use(cors({
     origin: ["https://frontend-books-h4kr.vercel.app"],
+    
     methods:["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
